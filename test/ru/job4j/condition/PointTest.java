@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class PointTest {
     @Test
-    public void when0_0To2_0Then2() {
+    public void when00To20Then2() {
         double expected = 2;
         int x1 = 0;
         int y1 = 0;
@@ -16,7 +16,7 @@ public class PointTest {
     }
 
     @Test
-    public void when1_0To0_0Then1() {
+    public void when10To00Then1() {
         double expected = 1;
         int x1 = 1;
         int y1 = 0;
@@ -27,7 +27,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenMinus1_0To0_0Then1() {
+    public void whenMinus10To00Then1() {
         double expected = 1;
         int x1 = -1;
         int y1 = 0;
@@ -38,7 +38,7 @@ public class PointTest {
     }
 
     @Test
-    public void  when1_1_To_1_1Then0() {
+    public void  when11To11Then0() {
         double expected = 0;
         int x1 = 1;
         int y1 = 1;
@@ -48,4 +48,3 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 }
-
