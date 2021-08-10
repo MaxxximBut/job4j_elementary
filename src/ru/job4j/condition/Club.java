@@ -2,8 +2,7 @@ package ru.job4j.condition;
 
 public class Club {
     public static void permisson(boolean hasMoney, boolean beFriend) {
-        boolean rsl = true;
-        if (hasMoney || beFriend == rsl) {
+        if (hasMoney || beFriend) {
             System.out.println("I can go to the club.");
         } else {
             System.out.println("I can't.");
