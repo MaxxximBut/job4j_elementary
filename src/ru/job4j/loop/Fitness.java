@@ -8,9 +8,6 @@ public class Fitness {
             nik *= 2;
             month++;
         }
-        while (ivan > nik) {
-            break;
-        }
         return month;
     }
 }
