@@ -37,11 +37,11 @@ public class FindLoopTest {
         Assert.assertEquals(expected, result);
     }
     @Test
-    public void whenArrayHasMinus2Then-1() {
-        int[] data = {5, 4, 3, 2};
-        int el = 5;
+    public void whenArrayHasMinus2Then1() {
+        int[] data = {5, -2, 3, 2};
+        int el = -2;
         int result = FindLoop.indexOf(data, el);
-        int expected = 0;
+        int expected = 1;
         Assert.assertEquals(expected, result);
     }
 }
